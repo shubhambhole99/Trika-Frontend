@@ -60,6 +60,9 @@ function Header() {
                       <li className={`dropdown ${activePage === '/blog' ? 'active' : ''}`} style={{cursor:"pointer"}}>
                         <a onClick={() => reloadPage("/blog")}>Blog</a>
                       </li>
+                      <li className={`dropdown ${activePage === '/event' ? 'active' : ''}`} style={{cursor:"pointer"}}>
+                        <a onClick={() => reloadPage("/event")}>Events</a>
+                      </li>
                       <li className={` ${activePage === '/contact' ? 'active' : ''}`} style={{cursor:"pointer"}}>
                         <a onClick={() => reloadPage("/contact")}>Contact Us</a>
                       </li>
